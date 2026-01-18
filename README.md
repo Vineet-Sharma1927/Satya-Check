@@ -93,6 +93,11 @@ npm install
 npm run dev
 ```
 
+# Download Model Weights
+Download the pre-trained model from Google Drive:
+🔗 Model Download Link: [https://drive.google.com/file/d/12MwDgXl3dJBKHI9Yn2M6nWNhUPlkD_bL/view?usp=sharing]
+Extract the 'model_output' folder to the project root directory
+
 ### 4. One-Click Launch (Windows)
 Simply double-click the `LAUNCH_SATYA.bat` file in the root directory to start the entire system automatically.
 
