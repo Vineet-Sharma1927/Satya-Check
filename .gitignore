@@ -1,0 +1,27 @@
+# --- HEAVY FOLDERS (MUST IGNORE) ---
+model_output/
+model_output_v2/
+dataset/
+dataset_backup/
+venv/
+node_modules/
+.next/
+__pycache__/
+instance/
+.git/
+
+# --- HEAVY FILE TYPES ---
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.onnx
+*.db
+*.zip
+*.rar
+*.csv
+*.log
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
