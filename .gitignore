@@ -22,6 +22,11 @@ instance/
 *.csv
 *.log
 
+# --- ENVIRONMENT & SECRETS ---
+.env
+.env.local
+.env*.local
+
 # --- SYSTEM FILES ---
 .DS_Store
 Thumbs.db

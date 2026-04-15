@@ -21,8 +21,8 @@ MODEL_PATH = "./model_output_zip/model_output"
 
 # --- ⚠️ CONFIGURATION: USE ENVIRONMENT VARIABLES ---
 # NEVER hardcode API keys. Set these in your terminal or .env file.
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "AIzaSyD99jvGtX3pVJg1S_r8GZGxu9J1rmcI5oU")
-GOOGLE_CSE_ID = os.environ.get("GOOGLE_CSE_ID", "a5d5259db798c4fc2")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+GOOGLE_CSE_ID = os.environ.get("GOOGLE_CSE_ID")
 
 # --- 1. SYSTEM INITIALIZATION ---
 print("--- LOADING SYSTEMS... ---")
